@@ -1,0 +1,460 @@
+// BASE SCSS
+body {
+	font-family: 'Muli', sans-serif;
+	margin:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color:inherit;
+	text-decoration: none;
+}
+
+p {
+	margin: 1em auto;
+	line-height: 1.9em;
+}
+
+
+h1, h2, h3, h4, h5, h6, label.join {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.2em;
+	letter-spacing: .0618em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+
+	span {
+		text-transform: lowercase;
+		font-family: serif;
+		font-weight: normal;
+		font-style: italic;
+		letter-spacing: normal;
+	}
+}
+
+h2 {
+	font-size: 1.35em;
+	@media(min-width: 481px) {
+		font-size: 2.15em;
+	}
+}
+
+h3 {
+	font-size: 1.15em;
+	@media(min-width: 481px) {
+		font-size: 1.5em;
+	}
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.outer {
+	padding: 0 1em 6em;
+}
+
+.page-wrap {
+	width:100%;
+	max-width:900px;
+	margin:0 auto;
+}
+
+.page-wrap h1:after, 
+.page-wrap h2:after {
+	content: "";
+	display: block;
+	margin:auto;
+	width: 2em;
+	margin-top:.5em;
+	border-top: .05em solid black;
+}
+
+.page-wrap h2:after {
+	margin-top:.7em;
+	border-top: 2px solid black;
+}
+
+.page-wrap .join:after {
+	content: none;
+}
+
+.block {
+	display: block;
+}
+
+.nav-services,
+.nav {
+	padding-right: 0;
+	-webkit-padding-start: 0;
+}
+
+.menu {
+	background-color: #000;
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+
+
+	.nav {
+		display: inline-block;
+		margin:0;
+
+		li {
+			display:block;
+			font-size: .8em;
+			letter-spacing: .05em;
+			line-height: 4em;
+
+			@media(min-width:520px) {
+				display: inline-block;
+				width: 12.8em;
+			}
+		}
+	}
+}
+
+.sub-menu {
+	font-family: serif;
+	font-style: italic;
+	max-width: 410px;
+	margin:0 auto;
+	padding-start: 30px;
+	-webkit-padding-start: 30px;
+
+	li {
+		list-style-type: disc;
+		line-height: 1.85em;
+		font-size: .95em;
+		padding-left:10px;
+	}
+}
+
+.main-title {
+	line-height: 1em;
+	font-size: 3em;
+	margin-bottom: .9em;
+	
+	@media(min-width: 481px) {
+		font-size: 4em;
+	}
+
+	@media(min-width: 768px) {
+		font-size: 5.5em;
+	}
+	
+	span {
+		letter-spacing: normal;
+	}
+}
+
+.stand-out {
+	margin-top: 1.4em;
+	margin-bottom: 1.4em;
+
+	@media(min-width: 481px) {
+		font-size: 2.4em;
+	}
+}
+
+.page-wrap .stand-out:after {
+	content: none;
+}
+
+
+
+
+.call-out {
+	text-align: center;
+
+	p {
+		font-weight: 300;
+		line-height: 1.3em;
+		max-width: 27em;
+		font-size: 1.15em;
+		@media(min-width: 481px) {
+			font-size: 1.75em;
+		}
+	}
+}
+
+.brand-group {
+	font-weight: bold;
+	max-width: 50em;
+	text-align: center;
+	line-height: 1.8em;
+	margin-bottom: 2em;
+	font-family: 'Lato' sans-serif;
+	font-weight: bold;
+
+	@media(min-width: 481px) {
+		font-size: 1.25em;
+	}
+}
+
+.nav-services {
+	> li {
+			list-style-type: none;
+
+		h3 {
+			font-size: 1.15em;
+			line-height: 1.3em;
+			padding:.6em 0;
+			max-width: 350px;
+			background-color: black;
+			color:#fff;
+			margin-left:auto;
+			margin-right:auto;
+			font-weight: normal;
+			font-family: 'Muli', sans-serif;
+
+			@media(min-width: 481px) {
+				font-size: 1.3em;
+			}
+		}
+	}
+	> .sub {
+		background-color: white;
+		color:black;
+	}
+
+	@media(min-width:768px) {
+		width:50%;
+		float:left;
+	}
+}
+
+@media(max-width:767px) {
+	.nav-services:first-of-type {
+		margin-bottom: 0;
+	}
+
+	.nav-services:nth-of-type(2) {
+		margin-top: 0;
+
+		.sub {
+			h3 {
+				margin-top:0;
+			}
+		}
+	}
+}
+
+.bio span,
+.bio strong {
+	font-weight: bold;
+}
+
+.our-services {
+	position: relative;
+	padding-bottom: 4em;
+	position: relative;
+
+	.divider {
+		display: none;
+
+		@media(min-width: 800px) {
+			display: block;
+			position: absolute;
+			height: 82%;
+			
+			&:after {
+				content:"";
+				display: block;
+				position: absolute;
+				top:0; bottom:0; left:0; right:0;
+				margin:auto;
+				height: 100%;
+				width:1px;
+				border-left: 2px dotted #9d9d9d;
+			}
+		}
+	}
+}
+
+// FORM
+input,
+textarea {
+	width:100%;
+	border:2px solid black;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 2.6em;
+	padding-left: 1em;
+	color: #9d9d9d;
+}
+
+textarea {
+	height: 24em;
+	margin-top:.5em;
+	margin-bottom:.5em;
+}
+
+.submit {
+	float: right;
+	width:20em;
+	margin-right: .5em;
+	border:none;
+	cursor: pointer;
+
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+
+label.join {
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	line-height: 2em;
+	position: relative;
+	margin-left:-8px;
+
+	@media(min-width: 480px) {
+		margin-left:-16px;
+	}
+}
+
+.contact-us {
+	
+	.clip-bg-holder {
+		position: relative;
+		max-width: 170px;
+		float: right;
+		margin-right:.5em;
+		cursor: pointer;
+
+		@media(min-width: 480px) {
+			max-width: 290px;
+		}
+
+		@media(min-width: 768px) {
+			margin-right: 1em;
+		}
+
+
+		&:after {
+			content: "";
+			display: block;
+			background-image: url("../img/tri.png");
+			background-repeat: no-repeat;
+			background-size:cover;
+			height: 10px;
+			width: 9px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 20px;
+			margin: auto;
+
+			@media(min-width: 480px) {
+				right: 30px;
+			}
+
+			@media(min-width: 768px) {
+				height: 20px;
+				width:18px;
+			}
+		}
+	}
+}
+
+.form-text,
+.text-holder {
+	padding:.5em;
+}
+
+@media(min-width:768px) {
+	.form-text {
+		width:50%;
+		float:left;
+	}
+	.form-text,
+	.text-holder {
+		padding:1em;
+	}
+	.submit {
+		margin-right: 1em;
+	}
+}
+
+
+// DIVIDER
+.divider {
+	height: 6em;
+	width: 100%;
+	position: relative;
+
+	&:after {
+		content:"";
+		display: block;
+		position: absolute;
+		top:0; bottom:0; left:0; right:0;
+		margin:auto;
+		height: 100%;
+		width:1px;
+		border-left: 2px dotted #9d9d9d;
+	}
+}
+
+.who-we-are + .divider {
+	height: 4em;
+	margin-top:2.5rem;
+}
+
+
+// CLIP BG
+.join {
+	line-height: 2em;
+	margin:0 auto;
+	width: 100%;
+	cursor: pointer;
+
+	@media(min-width: 481px) {
+		font-size: 1.8em;
+	}
+}
+
+.white-bg {
+	background-color: white;
+	cursor: pointer;
+}
+.clip-bg-holder {
+    background-image: url('../img/gold.jpg');
+    width: 100%;
+    max-width: 410px;
+    padding:3px;
+    margin:0 auto 1.75em;
+}
+
+.call-out {
+	.clip-bg-holder {
+		max-width: 290px;
+
+		@media(min-width: 480px) {
+			max-width: 410px;
+		}
+	}
+}
+
+.clip-bg {
+	 color: yellow;
+	 -webkit-text-fill-color: transparent;
+	 background: -webkit-linear-gradient(transparent, transparent),
+	             url(../img/gold.jpg) repeat;
+	 background: -o-linear-gradient(transparent, transparent);
+	 -webkit-background-clip: text;
+}
