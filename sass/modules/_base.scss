@@ -457,4 +457,9 @@ label.join {
 	             url(../img/gold.jpg) repeat;
 	 background: -o-linear-gradient(transparent, transparent);
 	 -webkit-background-clip: text;
+
+	 -moz-background-clip: text;
+	 -moz-text-fill-color: transparent;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
 }
