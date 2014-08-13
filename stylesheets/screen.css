@@ -528,9 +528,13 @@ label.join {
 
 /* line 453, ../sass/modules/_base.scss */
 .clip-bg {
-  color: yellow;
+  color: black;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(transparent, transparent), url(../img/gold.jpg) repeat;
   background: -o-linear-gradient(transparent, transparent);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
