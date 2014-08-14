@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6, label.join {
 /* line 41, ../sass/modules/_base.scss */
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, label.join span {
   text-transform: lowercase;
-  font-family: serif;
   font-weight: normal;
   font-style: italic;
   letter-spacing: normal;
@@ -167,7 +166,6 @@ h3 {
 
 /* line 140, ../sass/modules/_base.scss */
 .sub-menu {
-  font-family: serif;
   font-style: italic;
   max-width: 410px;
   margin: 0 auto;
