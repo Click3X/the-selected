@@ -4,7 +4,6 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 2, ../sass/modules/_base.scss */
 body {
-  font-family: 'Muli', sans-serif;
   margin: 0;
   width: 100%;
   max-width: 100%;
@@ -42,10 +41,9 @@ h1, h2, h3, h4, h5, h6, label.join {
   text-align: center;
   line-height: 1.2em;
   letter-spacing: .0618em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
 }
-/* line 40, ../sass/modules/_base.scss */
+/* line 41, ../sass/modules/_base.scss */
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, label.join span {
   text-transform: lowercase;
   font-family: serif;
@@ -54,59 +52,59 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, label.join span {
   letter-spacing: normal;
 }
 
-/* line 49, ../sass/modules/_base.scss */
+/* line 50, ../sass/modules/_base.scss */
 h2 {
   font-size: 1.35em;
 }
 @media (min-width: 481px) {
-  /* line 49, ../sass/modules/_base.scss */
+  /* line 50, ../sass/modules/_base.scss */
   h2 {
     font-size: 2.15em;
   }
 }
 
-/* line 56, ../sass/modules/_base.scss */
+/* line 57, ../sass/modules/_base.scss */
 h3 {
   font-size: 1.15em;
 }
 @media (min-width: 481px) {
-  /* line 56, ../sass/modules/_base.scss */
+  /* line 57, ../sass/modules/_base.scss */
   h3 {
     font-size: 1.5em;
   }
 }
 
-/* line 64, ../sass/modules/_base.scss */
+/* line 65, ../sass/modules/_base.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 68, ../sass/modules/_base.scss */
+/* line 69, ../sass/modules/_base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 71, ../sass/modules/_base.scss */
+/* line 72, ../sass/modules/_base.scss */
 .clearfix {
   zoom: 1;
   /* For IE 6/7 (trigger hasLayout) */
 }
 
-/* line 75, ../sass/modules/_base.scss */
+/* line 76, ../sass/modules/_base.scss */
 .outer {
   padding: 0 1em 6em;
 }
 
-/* line 79, ../sass/modules/_base.scss */
+/* line 80, ../sass/modules/_base.scss */
 .page-wrap {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
 }
 
-/* line 86, ../sass/modules/_base.scss */
+/* line 87, ../sass/modules/_base.scss */
 .page-wrap h1:after,
 .page-wrap h2:after {
   content: "";
@@ -117,42 +115,42 @@ h3 {
   border-top: .05em solid black;
 }
 
-/* line 95, ../sass/modules/_base.scss */
+/* line 96, ../sass/modules/_base.scss */
 .page-wrap h2:after {
   margin-top: .7em;
   border-top: 2px solid black;
 }
 
-/* line 100, ../sass/modules/_base.scss */
+/* line 101, ../sass/modules/_base.scss */
 .page-wrap .join:after {
   content: none;
 }
 
-/* line 104, ../sass/modules/_base.scss */
+/* line 105, ../sass/modules/_base.scss */
 .block {
   display: block;
 }
 
-/* line 109, ../sass/modules/_base.scss */
+/* line 110, ../sass/modules/_base.scss */
 .nav-services,
 .nav {
   padding-right: 0;
   -webkit-padding-start: 0;
 }
 
-/* line 114, ../sass/modules/_base.scss */
+/* line 115, ../sass/modules/_base.scss */
 .menu {
   background-color: #000;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 121, ../sass/modules/_base.scss */
+/* line 122, ../sass/modules/_base.scss */
 .menu .nav {
   display: inline-block;
   margin: 0;
 }
-/* line 125, ../sass/modules/_base.scss */
+/* line 126, ../sass/modules/_base.scss */
 .menu .nav li {
   display: block;
   font-size: .8em;
@@ -160,14 +158,14 @@ h3 {
   line-height: 4em;
 }
 @media (min-width: 520px) {
-  /* line 125, ../sass/modules/_base.scss */
+  /* line 126, ../sass/modules/_base.scss */
   .menu .nav li {
     display: inline-block;
     width: 12.8em;
   }
 }
 
-/* line 139, ../sass/modules/_base.scss */
+/* line 140, ../sass/modules/_base.scss */
 .sub-menu {
   font-family: serif;
   font-style: italic;
@@ -176,7 +174,7 @@ h3 {
   padding-start: 30px;
   -webkit-padding-start: 30px;
 }
-/* line 147, ../sass/modules/_base.scss */
+/* line 148, ../sass/modules/_base.scss */
 .sub-menu li {
   list-style-type: disc;
   line-height: 1.85em;
@@ -184,51 +182,51 @@ h3 {
   padding-left: 10px;
 }
 
-/* line 155, ../sass/modules/_base.scss */
+/* line 156, ../sass/modules/_base.scss */
 .main-title {
   line-height: 1em;
   font-size: 3em;
   margin-bottom: .9em;
 }
 @media (min-width: 481px) {
-  /* line 155, ../sass/modules/_base.scss */
+  /* line 156, ../sass/modules/_base.scss */
   .main-title {
     font-size: 4em;
   }
 }
 @media (min-width: 768px) {
-  /* line 155, ../sass/modules/_base.scss */
+  /* line 156, ../sass/modules/_base.scss */
   .main-title {
     font-size: 5.5em;
   }
 }
-/* line 168, ../sass/modules/_base.scss */
+/* line 169, ../sass/modules/_base.scss */
 .main-title span {
   letter-spacing: normal;
 }
 
-/* line 173, ../sass/modules/_base.scss */
+/* line 174, ../sass/modules/_base.scss */
 .stand-out {
   margin-top: 1.4em;
   margin-bottom: 1.4em;
 }
 @media (min-width: 481px) {
-  /* line 173, ../sass/modules/_base.scss */
+  /* line 174, ../sass/modules/_base.scss */
   .stand-out {
     font-size: 2.4em;
   }
 }
 
-/* line 182, ../sass/modules/_base.scss */
+/* line 183, ../sass/modules/_base.scss */
 .page-wrap .stand-out:after {
   content: none;
 }
 
-/* line 189, ../sass/modules/_base.scss */
+/* line 190, ../sass/modules/_base.scss */
 .call-out {
   text-align: center;
 }
-/* line 192, ../sass/modules/_base.scss */
+/* line 193, ../sass/modules/_base.scss */
 .call-out p {
   font-weight: 300;
   line-height: 1.3em;
@@ -236,34 +234,33 @@ h3 {
   font-size: 1.15em;
 }
 @media (min-width: 481px) {
-  /* line 192, ../sass/modules/_base.scss */
+  /* line 193, ../sass/modules/_base.scss */
   .call-out p {
     font-size: 1.75em;
   }
 }
 
-/* line 203, ../sass/modules/_base.scss */
+/* line 204, ../sass/modules/_base.scss */
 .brand-group {
   font-weight: bold;
   max-width: 50em;
   text-align: center;
   line-height: 1.8em;
   margin-bottom: 2em;
-  font-family: 'Lato' sans-serif;
   font-weight: bold;
 }
 @media (min-width: 481px) {
-  /* line 203, ../sass/modules/_base.scss */
+  /* line 204, ../sass/modules/_base.scss */
   .brand-group {
     font-size: 1.25em;
   }
 }
 
-/* line 218, ../sass/modules/_base.scss */
+/* line 219, ../sass/modules/_base.scss */
 .nav-services > li {
   list-style-type: none;
 }
-/* line 221, ../sass/modules/_base.scss */
+/* line 222, ../sass/modules/_base.scss */
 .nav-services > li h3 {
   font-size: 1.15em;
   line-height: 1.3em;
@@ -274,21 +271,20 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   font-weight: normal;
-  font-family: 'Muli', sans-serif;
 }
 @media (min-width: 481px) {
-  /* line 221, ../sass/modules/_base.scss */
+  /* line 222, ../sass/modules/_base.scss */
   .nav-services > li h3 {
     font-size: 1.3em;
   }
 }
-/* line 238, ../sass/modules/_base.scss */
+/* line 239, ../sass/modules/_base.scss */
 .nav-services > .sub {
   background-color: white;
   color: black;
 }
 @media (min-width: 768px) {
-  /* line 217, ../sass/modules/_base.scss */
+  /* line 218, ../sass/modules/_base.scss */
   .nav-services {
     width: 50%;
     float: left;
@@ -296,44 +292,44 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 250, ../sass/modules/_base.scss */
+  /* line 251, ../sass/modules/_base.scss */
   .nav-services:first-of-type {
     margin-bottom: 0;
   }
 
-  /* line 254, ../sass/modules/_base.scss */
+  /* line 255, ../sass/modules/_base.scss */
   .nav-services:nth-of-type(2) {
     margin-top: 0;
   }
-  /* line 258, ../sass/modules/_base.scss */
+  /* line 259, ../sass/modules/_base.scss */
   .nav-services:nth-of-type(2) .sub h3 {
     margin-top: 0;
   }
 }
-/* line 266, ../sass/modules/_base.scss */
+/* line 267, ../sass/modules/_base.scss */
 .bio span,
 .bio strong {
   font-weight: bold;
 }
 
-/* line 270, ../sass/modules/_base.scss */
+/* line 271, ../sass/modules/_base.scss */
 .our-services {
   position: relative;
   padding-bottom: 4em;
   position: relative;
 }
-/* line 275, ../sass/modules/_base.scss */
+/* line 276, ../sass/modules/_base.scss */
 .our-services .divider {
   display: none;
 }
 @media (min-width: 800px) {
-  /* line 275, ../sass/modules/_base.scss */
+  /* line 276, ../sass/modules/_base.scss */
   .our-services .divider {
     display: block;
     position: absolute;
     height: 82%;
   }
-  /* line 283, ../sass/modules/_base.scss */
+  /* line 284, ../sass/modules/_base.scss */
   .our-services .divider:after {
     content: "";
     display: block;
@@ -349,7 +345,7 @@ h3 {
   }
 }
 
-/* line 299, ../sass/modules/_base.scss */
+/* line 300, ../sass/modules/_base.scss */
 input,
 textarea {
   width: 100%;
@@ -362,7 +358,7 @@ textarea {
   border-radius: 0 !important;
 }
 
-/* line 310, ../sass/modules/_base.scss */
+/* line 311, ../sass/modules/_base.scss */
 textarea {
   height: 24em;
   margin-top: .5em;
@@ -370,7 +366,7 @@ textarea {
   border-radius: 0 !important;
 }
 
-/* line 317, ../sass/modules/_base.scss */
+/* line 318, ../sass/modules/_base.scss */
 .submit {
   float: right;
   width: 20em;
@@ -382,7 +378,7 @@ textarea {
   opacity: 0;
 }
 
-/* line 329, ../sass/modules/_base.scss */
+/* line 330, ../sass/modules/_base.scss */
 label.join {
   text-align: center;
   cursor: pointer;
@@ -392,13 +388,13 @@ label.join {
   margin-left: -8px;
 }
 @media (min-width: 480px) {
-  /* line 329, ../sass/modules/_base.scss */
+  /* line 330, ../sass/modules/_base.scss */
   label.join {
     margin-left: -16px;
   }
 }
 
-/* line 344, ../sass/modules/_base.scss */
+/* line 345, ../sass/modules/_base.scss */
 .contact-us .clip-bg-holder {
   position: relative;
   max-width: 170px;
@@ -407,18 +403,18 @@ label.join {
   cursor: pointer;
 }
 @media (min-width: 480px) {
-  /* line 344, ../sass/modules/_base.scss */
+  /* line 345, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder {
     max-width: 290px;
   }
 }
 @media (min-width: 768px) {
-  /* line 344, ../sass/modules/_base.scss */
+  /* line 345, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder {
     margin-right: 1em;
   }
 }
-/* line 360, ../sass/modules/_base.scss */
+/* line 361, ../sass/modules/_base.scss */
 .contact-us .clip-bg-holder:after {
   content: "";
   display: block;
@@ -434,50 +430,50 @@ label.join {
   margin: auto;
 }
 @media (min-width: 480px) {
-  /* line 360, ../sass/modules/_base.scss */
+  /* line 361, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder:after {
     right: 30px;
   }
 }
 @media (min-width: 768px) {
-  /* line 360, ../sass/modules/_base.scss */
+  /* line 361, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder:after {
     height: 20px;
     width: 18px;
   }
 }
 
-/* line 387, ../sass/modules/_base.scss */
+/* line 388, ../sass/modules/_base.scss */
 .form-text,
 .text-holder {
   padding: .5em;
 }
 
 @media (min-width: 768px) {
-  /* line 392, ../sass/modules/_base.scss */
+  /* line 393, ../sass/modules/_base.scss */
   .form-text {
     width: 50%;
     float: left;
   }
 
-  /* line 397, ../sass/modules/_base.scss */
+  /* line 398, ../sass/modules/_base.scss */
   .form-text,
   .text-holder {
     padding: 1em;
   }
 
-  /* line 400, ../sass/modules/_base.scss */
+  /* line 401, ../sass/modules/_base.scss */
   .submit {
     margin-right: 1em;
   }
 }
-/* line 407, ../sass/modules/_base.scss */
+/* line 408, ../sass/modules/_base.scss */
 .divider {
   height: 6em;
   width: 100%;
   position: relative;
 }
-/* line 412, ../sass/modules/_base.scss */
+/* line 413, ../sass/modules/_base.scss */
 .divider:after {
   content: "";
   display: block;
@@ -492,13 +488,13 @@ label.join {
   border-left: 2px dotted #9d9d9d;
 }
 
-/* line 424, ../sass/modules/_base.scss */
+/* line 425, ../sass/modules/_base.scss */
 .who-we-are + .divider {
   height: 4em;
   margin-top: 2.5rem;
 }
 
-/* line 431, ../sass/modules/_base.scss */
+/* line 432, ../sass/modules/_base.scss */
 .join {
   line-height: 2em;
   margin: 0 auto;
@@ -506,19 +502,19 @@ label.join {
   cursor: pointer;
 }
 @media (min-width: 481px) {
-  /* line 431, ../sass/modules/_base.scss */
+  /* line 432, ../sass/modules/_base.scss */
   .join {
     font-size: 1.8em;
   }
 }
 
-/* line 442, ../sass/modules/_base.scss */
+/* line 443, ../sass/modules/_base.scss */
 .white-bg {
   background-color: white;
   cursor: pointer;
 }
 
-/* line 446, ../sass/modules/_base.scss */
+/* line 447, ../sass/modules/_base.scss */
 .clip-bg-holder {
   background-image: url("../img/gold.jpg");
   width: 100%;
@@ -527,18 +523,18 @@ label.join {
   margin: 0 auto 1.75em;
 }
 
-/* line 455, ../sass/modules/_base.scss */
+/* line 456, ../sass/modules/_base.scss */
 .call-out .clip-bg-holder {
   max-width: 290px;
 }
 @media (min-width: 480px) {
-  /* line 455, ../sass/modules/_base.scss */
+  /* line 456, ../sass/modules/_base.scss */
   .call-out .clip-bg-holder {
     max-width: 410px;
   }
 }
 
-/* line 464, ../sass/modules/_base.scss */
+/* line 465, ../sass/modules/_base.scss */
 .clip-bg {
   color: black;
   -webkit-text-fill-color: transparent;
