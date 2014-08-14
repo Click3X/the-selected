@@ -29,6 +29,20 @@
         <![endif]-->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
+        <script>
+            Modernizr.addTest('backgroundclip',function(){
+
+              var div = document.createElement('div');
+
+              if ('backgroundClip' in div.style) return true;
+
+              'Webkit Moz O ms Khtml'.replace(/([A-Za-z]*)/g,function(val){ 
+                if (val+'BackgroundClip' in div.style) return true;
+              });
+
+            });
+        </script>
+
         <style>
             #outline {
                 position: fixed;
@@ -141,7 +155,7 @@
 
 
                 <!-- CONTACT US -->
-                <section class="contact-us">
+                <section class="contact-us clearfix">
                     <h2 id="contact-us" class="tk-brandon-grotesque"><span>contact</span> Us</h2>
                     <form action="" method="post">
                         <div class="form-text">
