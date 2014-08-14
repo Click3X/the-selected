@@ -333,8 +333,8 @@ h3 {
 
 /* line 279, ../sass/modules/_base.scss */
 .our-services {
-  position: relative;
   padding-bottom: 4em;
+  margin-top: 1em;
   position: relative;
 }
 @media (min-width: 768px) {
@@ -525,12 +525,17 @@ label.join {
 }
 
 /* line 452, ../sass/modules/_base.scss */
+.who-we-are {
+  margin-top: 1em;
+}
+
+/* line 456, ../sass/modules/_base.scss */
 .who-we-are + .divider {
   height: 4em;
   margin-top: 2.5rem;
 }
 
-/* line 459, ../sass/modules/_base.scss */
+/* line 463, ../sass/modules/_base.scss */
 .join {
   line-height: 2em;
   margin: 0 auto;
@@ -538,19 +543,19 @@ label.join {
   cursor: pointer;
 }
 @media (min-width: 481px) {
-  /* line 459, ../sass/modules/_base.scss */
+  /* line 463, ../sass/modules/_base.scss */
   .join {
     font-size: 1.8em;
   }
 }
 
-/* line 470, ../sass/modules/_base.scss */
+/* line 474, ../sass/modules/_base.scss */
 .white-bg {
   background-color: white;
   cursor: pointer;
 }
 
-/* line 474, ../sass/modules/_base.scss */
+/* line 478, ../sass/modules/_base.scss */
 .clip-bg-holder {
   background-image: url("../img/gold.jpg");
   width: 100%;
@@ -564,18 +569,18 @@ label.join {
   background-size: cover;
 }
 
-/* line 485, ../sass/modules/_base.scss */
+/* line 489, ../sass/modules/_base.scss */
 .call-out .clip-bg-holder {
   max-width: 290px;
 }
 @media (min-width: 480px) {
-  /* line 485, ../sass/modules/_base.scss */
+  /* line 489, ../sass/modules/_base.scss */
   .call-out .clip-bg-holder {
     max-width: 410px;
   }
 }
 
-/* line 494, ../sass/modules/_base.scss */
+/* line 498, ../sass/modules/_base.scss */
 .clip-bg {
   color: black;
   text-fill-color: transparent;
