@@ -476,6 +476,8 @@ label.join {
     max-width: 410px;
     padding:3px;
     margin:0 auto 1.75em;
+
+    @include prefix(background-size, cover);
 }
 
 .call-out {
