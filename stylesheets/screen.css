@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, label.join {
   text-align: center;
   line-height: 1.2em;
   letter-spacing: .0618em;
-  font-weight: 700;
+  font-weight: 900;
 }
 /* line 41, ../sass/modules/_base.scss */
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, label.join span {
