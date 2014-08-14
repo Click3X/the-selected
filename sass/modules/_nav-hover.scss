@@ -21,20 +21,20 @@
 
 	@include prefix(transition, opacity 0.5s);
 
-	@include prefix(transform, translateY(5px));
+	@include prefix(transform, translateY(4px));
 }
 
 .lines a::before {
-	top: 5px;
+	top: 4px;
 
-	@include prefix(transform, translateY(-5px));
+	@include prefix(transform, translateY(-4px));
 	@include prefix(transition, all 0.5s);
 }
 
 .lines a::after {
-	bottom: 5px;
+	bottom: 4px;
 
-	@include prefix(transform, translateY(5px));
+	@include prefix(transform, translateY(4px));
 	@include prefix(transition, all 0.5s);
 }
 

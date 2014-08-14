@@ -628,21 +628,21 @@ label.join {
   -o-transition: opacity 0.5s;
   -ms-transition: opacity 0.5s;
   transition: opacity 0.5s;
-  -webkit-transform: translateY(5px);
-  -moz-transform: translateY(5px);
-  -o-transform: translateY(5px);
-  -ms-transform: translateY(5px);
-  transform: translateY(5px);
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -o-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  transform: translateY(4px);
 }
 
 /* line 27, ../sass/modules/_nav-hover.scss */
 .lines a::before {
-  top: 5px;
-  -webkit-transform: translateY(-5px);
-  -moz-transform: translateY(-5px);
-  -o-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  transform: translateY(-5px);
+  top: 4px;
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -652,12 +652,12 @@ label.join {
 
 /* line 34, ../sass/modules/_nav-hover.scss */
 .lines a::after {
-  bottom: 5px;
-  -webkit-transform: translateY(5px);
-  -moz-transform: translateY(5px);
-  -o-transform: translateY(5px);
-  -ms-transform: translateY(5px);
-  transform: translateY(5px);
+  bottom: 4px;
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -o-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  transform: translateY(4px);
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
