@@ -323,18 +323,28 @@ h3 {
   padding-bottom: 4em;
   position: relative;
 }
-/* line 284, ../sass/modules/_base.scss */
+@media (min-width: 768px) {
+  /* line 286, ../sass/modules/_base.scss */
+  .our-services .nav-services:first-of-type h3 {
+    margin-bottom: 2em;
+  }
+  /* line 291, ../sass/modules/_base.scss */
+  .our-services .nav-services:first-of-type li:nth-of-type(3) h3 {
+    margin-bottom: 3em;
+  }
+}
+/* line 298, ../sass/modules/_base.scss */
 .our-services .divider {
   display: none;
 }
 @media (min-width: 800px) {
-  /* line 284, ../sass/modules/_base.scss */
+  /* line 298, ../sass/modules/_base.scss */
   .our-services .divider {
     display: block;
     position: absolute;
     height: 82%;
   }
-  /* line 292, ../sass/modules/_base.scss */
+  /* line 306, ../sass/modules/_base.scss */
   .our-services .divider:after {
     content: "";
     display: block;
@@ -350,7 +360,7 @@ h3 {
   }
 }
 
-/* line 308, ../sass/modules/_base.scss */
+/* line 322, ../sass/modules/_base.scss */
 input,
 textarea {
   width: 100%;
@@ -363,7 +373,7 @@ textarea {
   border-radius: 0 !important;
 }
 
-/* line 319, ../sass/modules/_base.scss */
+/* line 333, ../sass/modules/_base.scss */
 textarea {
   height: 24em;
   margin-top: .5em;
@@ -371,7 +381,7 @@ textarea {
   border-radius: 0 !important;
 }
 
-/* line 326, ../sass/modules/_base.scss */
+/* line 340, ../sass/modules/_base.scss */
 .submit {
   float: right;
   width: 20em;
@@ -383,7 +393,7 @@ textarea {
   opacity: 0;
 }
 
-/* line 338, ../sass/modules/_base.scss */
+/* line 352, ../sass/modules/_base.scss */
 label.join {
   text-align: center;
   cursor: pointer;
@@ -393,13 +403,13 @@ label.join {
   margin-left: -8px;
 }
 @media (min-width: 480px) {
-  /* line 338, ../sass/modules/_base.scss */
+  /* line 352, ../sass/modules/_base.scss */
   label.join {
     margin-left: -16px;
   }
 }
 
-/* line 353, ../sass/modules/_base.scss */
+/* line 367, ../sass/modules/_base.scss */
 .contact-us .clip-bg-holder {
   position: relative;
   max-width: 170px;
@@ -408,18 +418,18 @@ label.join {
   cursor: pointer;
 }
 @media (min-width: 480px) {
-  /* line 353, ../sass/modules/_base.scss */
+  /* line 367, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder {
     max-width: 290px;
   }
 }
 @media (min-width: 768px) {
-  /* line 353, ../sass/modules/_base.scss */
+  /* line 367, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder {
     margin-right: 1em;
   }
 }
-/* line 369, ../sass/modules/_base.scss */
+/* line 383, ../sass/modules/_base.scss */
 .contact-us .clip-bg-holder:after {
   content: "";
   display: block;
@@ -435,50 +445,50 @@ label.join {
   margin: auto;
 }
 @media (min-width: 480px) {
-  /* line 369, ../sass/modules/_base.scss */
+  /* line 383, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder:after {
     right: 30px;
   }
 }
 @media (min-width: 768px) {
-  /* line 369, ../sass/modules/_base.scss */
+  /* line 383, ../sass/modules/_base.scss */
   .contact-us .clip-bg-holder:after {
     height: 20px;
     width: 18px;
   }
 }
 
-/* line 396, ../sass/modules/_base.scss */
+/* line 410, ../sass/modules/_base.scss */
 .form-text,
 .text-holder {
   padding: .5em;
 }
 
 @media (min-width: 768px) {
-  /* line 401, ../sass/modules/_base.scss */
+  /* line 415, ../sass/modules/_base.scss */
   .form-text {
     width: 50%;
     float: left;
   }
 
-  /* line 406, ../sass/modules/_base.scss */
+  /* line 420, ../sass/modules/_base.scss */
   .form-text,
   .text-holder {
     padding: 1em;
   }
 
-  /* line 409, ../sass/modules/_base.scss */
+  /* line 423, ../sass/modules/_base.scss */
   .submit {
     margin-right: 1em;
   }
 }
-/* line 416, ../sass/modules/_base.scss */
+/* line 430, ../sass/modules/_base.scss */
 .divider {
   height: 6em;
   width: 100%;
   position: relative;
 }
-/* line 421, ../sass/modules/_base.scss */
+/* line 435, ../sass/modules/_base.scss */
 .divider:after {
   content: "";
   display: block;
@@ -493,13 +503,13 @@ label.join {
   border-left: 2px dotted #9d9d9d;
 }
 
-/* line 433, ../sass/modules/_base.scss */
+/* line 447, ../sass/modules/_base.scss */
 .who-we-are + .divider {
   height: 4em;
   margin-top: 2.5rem;
 }
 
-/* line 440, ../sass/modules/_base.scss */
+/* line 454, ../sass/modules/_base.scss */
 .join {
   line-height: 2em;
   margin: 0 auto;
@@ -507,19 +517,19 @@ label.join {
   cursor: pointer;
 }
 @media (min-width: 481px) {
-  /* line 440, ../sass/modules/_base.scss */
+  /* line 454, ../sass/modules/_base.scss */
   .join {
     font-size: 1.8em;
   }
 }
 
-/* line 451, ../sass/modules/_base.scss */
+/* line 465, ../sass/modules/_base.scss */
 .white-bg {
   background-color: white;
   cursor: pointer;
 }
 
-/* line 455, ../sass/modules/_base.scss */
+/* line 469, ../sass/modules/_base.scss */
 .clip-bg-holder {
   background-image: url("../img/gold.jpg");
   width: 100%;
@@ -528,18 +538,18 @@ label.join {
   margin: 0 auto 1.75em;
 }
 
-/* line 464, ../sass/modules/_base.scss */
+/* line 478, ../sass/modules/_base.scss */
 .call-out .clip-bg-holder {
   max-width: 290px;
 }
 @media (min-width: 480px) {
-  /* line 464, ../sass/modules/_base.scss */
+  /* line 478, ../sass/modules/_base.scss */
   .call-out .clip-bg-holder {
     max-width: 410px;
   }
 }
 
-/* line 473, ../sass/modules/_base.scss */
+/* line 487, ../sass/modules/_base.scss */
 .clip-bg {
   color: black;
   -webkit-text-fill-color: transparent;

@@ -281,6 +281,20 @@ h3 {
 	padding-bottom: 4em;
 	position: relative;
 
+	@media(min-width: 768px) {
+		.nav-services:first-of-type {
+			h3 {
+				margin-bottom: 2em;
+			}
+
+			li:nth-of-type(3) {
+				h3 {
+					margin-bottom: 3em;
+				}
+			}
+		}
+	}
+
 	.divider {
 		display: none;
 
