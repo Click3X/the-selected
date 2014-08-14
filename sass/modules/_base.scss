@@ -84,6 +84,10 @@ h3 {
 	> section {
 		padding-top:.5em;
 		padding-bottom: .5em;
+
+		> h2:first-of-type {
+			margin-bottom: 2em;
+		}
 	}
 }
 
@@ -301,7 +305,8 @@ h3 {
 		@media(min-width: 800px) {
 			display: block;
 			position: absolute;
-			height: 82%;
+			// height: 82%;
+			height: 75%;
 			
 			&:after {
 				content:"";
