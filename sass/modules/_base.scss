@@ -72,13 +72,19 @@ h3 {
 }
 
 .outer {
-	padding: 0 1em 6em;
+	// padding: 0 1em 6em;
+	padding: 0 1em 18em;
 }
 
 .page-wrap {
 	width:100%;
 	max-width:900px;
 	margin:0 auto;
+
+	> section {
+		padding-top:.5em;
+		padding-bottom: .5em;
+	}
 }
 
 .page-wrap h1:after, 

@@ -29,20 +29,6 @@
         <![endif]-->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-        <script>
-            Modernizr.addTest('backgroundclip',function(){
-
-              var div = document.createElement('div');
-
-              if ('backgroundClip' in div.style) return true;
-
-              'Webkit Moz O ms Khtml'.replace(/([A-Za-z]*)/g,function(val){ 
-                if (val+'BackgroundClip' in div.style) return true;
-              });
-
-            });
-        </script>
-
         <style>
             #outline {
                 position: fixed;
@@ -100,9 +86,9 @@
 
 
                 <!-- WHO WE ARE -->
-                <section class="who-we-are">
+                <section id="who-we-are"  class="who-we-are">
                     
-                    <h2 id="who-we-are" class="tk-brandon-grotesque"><span>who</span> We Are</h2>
+                    <h2 class="tk-brandon-grotesque"><span>who</span> We Are</h2>
                     
                     <p class="brand-group tk-brandon-grotesque">A selected group of brand strategy &amp; creative specialists with a proven track record in building &amp; growing innovative brands.</p>
 
@@ -119,8 +105,8 @@
 
 
                 <!-- OUR SERVICES -->
-                <section class="our-services clearfix">
-                    <h2 id="our-services" class="tk-brandon-grotesque"><span>our</span> Services</h2>
+                <section id="our-services" class="our-services clearfix">
+                    <h2 class="tk-brandon-grotesque"><span>our</span> Services</h2>
                     
                     <ul class="nav-services tk-brandon-grotesque clearfix">
                         <li><h3>Brand Strategy</h3></li>
@@ -155,8 +141,8 @@
 
 
                 <!-- CONTACT US -->
-                <section class="contact-us clearfix">
-                    <h2 id="contact-us" class="tk-brandon-grotesque"><span>contact</span> Us</h2>
+                <section id="contact-us" class="contact-us clearfix">
+                    <h2 class="tk-brandon-grotesque"><span>contact</span> Us</h2>
                     <form action="" method="post">
                         <div class="form-text">
                             <input type="text" name="name" value="name">
