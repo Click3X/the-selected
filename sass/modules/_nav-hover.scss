@@ -1,0 +1,54 @@
+// NAV HOVER SCSS
+/* Effect 21: borders slight translate */
+.lines {
+	position: relative;
+}
+.lines a {
+	padding: 10px;
+}
+
+.lines a::before,
+.lines a::after {
+	position: absolute;
+	left: 0;
+	right:0;
+	width: 90%;
+	margin:0 auto;
+	height: 2px;
+	background: #fff;
+	content: '';
+	opacity: 0;
+
+	@include prefix(transition, opacity 0.5s);
+
+	@include prefix(transform, translateY(5px));
+}
+
+.lines a::before {
+	top: 5px;
+
+	@include prefix(transform, translateY(-5px));
+	@include prefix(transition, all 0.5s);
+}
+
+.lines a::after {
+	bottom: 5px;
+
+	@include prefix(transform, translateY(5px));
+	@include prefix(transition, all 0.5s);
+}
+
+.lines a:hover,
+.lines a:focus {
+	color: #fff;
+}
+
+.lines a:hover::before,
+.lines a:focus::before,
+.lines a:hover::after,
+.lines a:focus::after {
+	opacity: 1;
+
+	@include prefix(transform, translateY(0px));
+	@include prefix(transition, all 0.5s);
+}
