@@ -131,25 +131,33 @@
                 <!-- CONTACT US -->
                 <section id="contact-us" class="contact-us clearfix">
                     <h2 class="tk-brandon-grotesque"><span>contact</span> Us</h2>
-                    <form action="" method="post">
-                        <div class="form-text">
-                            <input type="text" name="name" value="name">
-                        </div>
-                        <div class="form-text">
-                            <input type="email" name="email" value="email">
-                        </div>
-                        <div class="text-holder">
-                            <textarea>Message</textarea>
-                        </div>
-
-                        <div class="clip-bg-holder tk-brandon-grotesque">
-                            <div class="white-bg">
-                                <label for="submit" class="join clip-bg lab-join"><span>submit</span> Form</label for="submit">
-                                <input class="submit " id="submit" type="submit" name="submit" value="submit FORM">
-                            </div>
-                        </div>
                         
-                    </form>
+                        <div id="contact_results"></div>
+                        <div id="contact_body">
+                        <!-- <form action="" method="post">  -->
+                            <div class="form-text">
+                                <input type="text" name="name" value="name" required="true">
+                            </div>
+                            <div class="form-text">
+                                <input type="email" name="email" value="email" required="true">
+                            </div>
+                            <div class="text-holder">
+                                <textarea name="message" id="message" required="true">Message</textarea>
+                            </div>
+
+                            <div class="clip-bg-holder tk-brandon-grotesque">
+                                <div class="white-bg">
+                                    <label for="submit" class="join clip-bg lab-join"><span>submit</span> Form</label for="submit">
+                                    <input class="submit " id="submit" type="submit" name="submit" value="submit FORM">
+                                </div>
+                            </div>
+                            
+                        <!-- </form> -->
+                        </div> <!-- / #contact body -->
+
+                    <div class="error"></div>
+                    <div class="success"></div>
+
                 </section>
 
 
@@ -162,6 +170,8 @@
         <script src="js/plugins.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script src="js/form.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

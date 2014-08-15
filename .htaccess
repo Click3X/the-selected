@@ -213,7 +213,8 @@ AddDefaultCharset utf-8
     Options +FollowSymlinks
   # Options +SymLinksIfOwnerMatch
     RewriteEngine On
-  # RewriteBase /
+    RewriteBase /
+    RewriteRule ^index\.html?$ / [NC,R,L]
 </IfModule>
 
 # ------------------------------------------------------------------------------
