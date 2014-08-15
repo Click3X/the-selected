@@ -136,13 +136,13 @@
                         <div id="contact_body">
                         <!-- <form action="" method="post">  -->
                             <div class="form-text">
-                                <input type="text" name="name" value="name" required="true">
+                                <input type="text" name="name" value="name" required="true" onfocus="this.value='';">
                             </div>
                             <div class="form-text">
-                                <input type="email" name="email" value="email" required="true">
+                                <input type="email" name="email" value="email" required="true" onfocus="this.value='';">
                             </div>
                             <div class="text-holder">
-                                <textarea name="message" id="message" required="true">Message</textarea>
+                                <textarea name="message" id="message" required="true" onfocus="this.value='';">Message</textarea>
                             </div>
 
                             <div class="clip-bg-holder tk-brandon-grotesque">
