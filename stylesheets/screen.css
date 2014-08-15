@@ -544,7 +544,6 @@ label.join {
   line-height: 2em;
   margin: 0 auto;
   width: 100%;
-  cursor: pointer;
 }
 @media (min-width: 481px) {
   /* line 468, ../sass/modules/_base.scss */
@@ -556,7 +555,6 @@ label.join {
 /* line 479, ../sass/modules/_base.scss */
 .white-bg {
   background-color: white;
-  cursor: pointer;
 }
 
 /* line 483, ../sass/modules/_base.scss */
