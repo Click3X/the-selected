@@ -1,7 +1,12 @@
 <?php
+// CONTACT ME PHP
+// PAGE USED TO COLLECT DATA FROM 'the selected' FORM
+// AND THEN SEND EMAIL DESIGNATED BY: $to_email var
+
 if($_POST)
 {
-    $to_email       = "charliekuldip@gmail.com"; //Recipient email, Replace with own email here
+    //RECIPIENT EMAIL, REPLACE WITH OWN EMAIL HERE
+    $to_email       = "charliekuldip@gmail.com";
     
     //check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {

@@ -708,7 +708,7 @@ label.join {
   top: 5em;
   max-width: 580px;
   margin: auto 1em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 @media (min-width: 486px) {
@@ -726,7 +726,7 @@ label.join {
 @media (min-width: 960px) {
   /* line 4, ../sass/modules/_form.scss */
   #contact_results {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
 }
 /* line 33, ../sass/modules/_form.scss */
@@ -740,10 +740,11 @@ label.join {
   display: block;
   margin: 1em auto;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1em;
+  letter-spacing: .1em;
   padding: .6em 2em .6em 1.2em;
 }
-/* line 46, ../sass/modules/_form.scss */
+/* line 47, ../sass/modules/_form.scss */
 #contact_results button:after {
   content: '';
   display: block;
@@ -759,12 +760,12 @@ label.join {
   border-top: .4em solid transparent;
   border-bottom: .4em solid transparent;
 }
-/* line 63, ../sass/modules/_form.scss */
+/* line 64, ../sass/modules/_form.scss */
 #contact_results > div {
   padding: .6em;
 }
 
-/* line 69, ../sass/modules/_form.scss */
+/* line 70, ../sass/modules/_form.scss */
 .bold {
   font-weight: bold;
   font-weight: 700;
