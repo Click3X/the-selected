@@ -1,7 +1,11 @@
 // FORM JS
 jQuery(document).ready(function($) {
-    $("#submit").click(function() {
 
+    // HIDE CONTACT RESULTS
+    $('#contact_results').hide();
+
+    // FORM CLICK EVENT
+    $("#submit").click(function() {
        
       var proceed = true;
         //simple validation at client's end
@@ -37,9 +41,11 @@ jQuery(document).ready(function($) {
                output = '<div class="success">'+response.text+'</div>';
                   //reset values in all input fields
                $("#contact-us  input[required=true], #contact-us textarea[required=true]").val('');
-               $("#contact-us #contact_body").slideUp(); //hide form after success
+               // $("#contact-us #contact_body").slideUp(); //hide form after success
               }
-              $("#contact-us #contact_results").hide().html(output).slideDown();
+              // $("#contact-us #contact_results").hide().html(output).slideDown();
+              $("#contact-us #contact_results").fadeIn().html(output).slideDown();
+
              }, 'json');
       }
      });
@@ -49,4 +55,11 @@ jQuery(document).ready(function($) {
         $(this).css('border-color','');
         $("#result").slideUp();
        });
+
+
+    // HIDE WINDOW ON 'OK BUTTON CLICK'
+    $('#contact_results').on('click', 'button', function() {
+      $('#contact_results').hide();
+     });
+
    });

@@ -28,6 +28,12 @@ p {
 	line-height: 1.9em;
 }
 
+input:-webkit-autofill, 
+textarea:-webkit-autofill, 
+select:-webkit-autofill {
+ background-color:#ffffff;
+ }
+
 
 h1, h2, h3, h4, h5, h6, label.join {
 	text-transform: uppercase;
@@ -370,6 +376,7 @@ label.join {
 
 .contact-us {
 	margin-top: 2em;
+	position: relative;
 	
 	.clip-bg-holder {
 		position: relative;

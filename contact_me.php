@@ -20,15 +20,15 @@ if($_POST)
     
     //additional php validation
     if(strlen($user_name)<4){ // If length is less than 4 it will output JSON error.
-        $output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!<button id="result-btn" class="result-btn">Ok</button>'));
         die($output);
     }
     if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)){ //email validation
-        $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!<button id="result-btn" class="result-btn">Ok</button>'));
         die($output);
     }
     if(strlen($message)<3){ //check emtpy message
-        $output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.<button id="result-btn" class="result-btn">Ok</button>'));
         die($output);
     }
     
@@ -48,10 +48,11 @@ if($_POST)
     if(!$send_mail)
     {
         //If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
-        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.<button id="result-btn" class="result-btn">Ok</button>'));
         die($output);
     }else{
-        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .', Thank you for your inquiry to The Selected. We will be in touch soon.'));
+        // $output = json_encode(array('type'=>'message', 'text' => '<span class="bold">Hi '.$user_name .', Thank you for your inquiry to The Selected.</span><br>We will be in touch soon.<button id="result-btn" class="result-btn">Ok</button>'));
+        $output = json_encode(array('type'=>'message', 'text' => '<span class="bold">Thank you for your inquiry to The Selected.</span><br>We will be in touch soon.<button id="result-btn" class="result-btn">Ok</button>'));
         die($output);
     }
 }
